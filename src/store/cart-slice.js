@@ -58,7 +58,7 @@ export const sendCartAction = (cart) => {
           }),
         }
       );
-
+ 
       if (!response.ok) {
         throw new Error("Could not send cart data");
       }
